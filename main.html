@@ -7,54 +7,22 @@
 </head>
 
 <body>
-	<form action="example.php" method="GET">
+	<form  method="GET">
     <!-- Form fields go here -->
-	<table>
-		
-		<thead>
-			<tr>
-				<th><lebel>Element</lebel></th>
-				<th><lebel>ID</lebel></th>
-				<th><lebel>Type</lebel></th>
-				<th><lebel>Attributes</lebel></th>
-				<th><lebel>Level Required</lebel></th>
-			</tr>
-		</thead>
-		<tbody>
-			
-			<tr>
-				<td>Name</td>
-				<td><input type="text" ></td>
-				<td><input type="text" ></td>
-				<td><input type="text" ></td>
-				<td><input type="text" ></td>
-				
-			</tr>
-			<tr>
-				
-				<td>Portfolio</td>
-				<td><input type="text" ></td>
-				<td><input type="text" ></td>
-				<td><input type="text" ></td>
-				<td><input type="text" ></td>
-				
-			</tr>
-			<tr>
-				<td>Favorite Color</td>
-				<td><input type="text" ></td>
-				<td><input type="text" ></td>
-				<td><input type="text" ></td>
-				<td><input type="text" ></td>
-			<tr>
-				<td>Likeness</td>
-				<td><input type="text" ></td>
-				<td><input type="text" ></td>
-				<td><input type="text" ></td>
-				<td><input type="text" ></td>
-			</tr>
-			
-		</tbody>
-	</table>
+		<label><h2>Feedback Form</h2></label>
+		<level for ="name">Name</level>
+		<input id="name" type="text" required>
+		<br><br>
+		<level for ="portfolio">Portfolio</level>
+		<input id="portfolio" type="url" required>
+		<br><br>
+		<level for ="favColor">Fvorite Color</level>
+		<input id="favColor" type="color" required >
+		<br><br>
+		<level for ="likeness">Likeness</level>
+		<input id="likeness" type="range" required>
+		<br><br>
+	
 		<input type="submit">
 		</form>
 	<!-- the entire body must be written by student -->
